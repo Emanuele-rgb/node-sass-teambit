@@ -1,0 +1,24 @@
+header {
+  .menu li{
+    display: inline-block;
+    margin-left: 20px;
+  }
+}
+
+.teambit-logo {
+  height: 35px;
+  width: 110px;
+  background-repeat: no-repeat;
+  background-image: url('../img/logo.svg');
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid $main-text-color;
+}

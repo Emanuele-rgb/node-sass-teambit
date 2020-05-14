@@ -1,0 +1,68 @@
+.pink-container {
+  background-color: $secondary-background-color;
+  height: 2000px;
+  width: 100%;
+}
+
+.pink-main-content {
+  margin-top: 100px;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-bottom: 1px solid;
+  h3 {
+    font-size: 25px;
+    text-align: center;
+    width: 50%;
+    display: block;
+    padding-top: 50px;
+    margin: 0 auto;
+  }
+}
+
+.slot-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+ .slot {
+   margin-top: 100px;
+  height: 140px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  p {
+    padding-top: 150px;
+    text-align: center;
+  }
+}
+
+.hardcore {
+  background-image: url('../img/hardcore.png');
+}
+
+.no-feedback {
+  background-image: url('../img/nofeedback.png');
+}
+
+.not-safe {
+  background-image: url('../img/notsafe.png');
+}
+
+.feedback {
+  background-image: url('../img/feedbacksuggestions.png');
+}
+
+.safe {
+  background-image: url('../img/safe.png');
+}
+
+.confusion {
+  margin: 0 auto;
+  margin-top: 150px;
+  height: 350px;
+  width: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../img/before.png');
+}
